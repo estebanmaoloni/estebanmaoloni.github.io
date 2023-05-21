@@ -1,0 +1,324 @@
+/* FUENTES */
+@font-face {
+  font-family: april;
+  src: url(./fuentes/April\ Easter.ttf);
+}
+@font-face {
+  font-family: autodex;
+  src: url(./fuentes/Autodex.otf);
+}
+@font-face {
+  font-family: bad;
+  src: url(./fuentes/BadRascal_PERSONAL_USE_ONLY.otf);
+}
+/* FUENTES */
+/* BARRA DE NAVEGACION */
+.navbar-toggler {
+  border: none;
+  margin-top: 15px;
+  font-size: 28px;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.barranav strong {
+  margin-left: 10px;
+  font-family: autodex;
+  font-size: 35px;
+  color: white;
+}
+
+.navbar-toggler-icon {
+  margin-bottom: 12px;
+}
+
+.barranav i {
+  margin: 8px;
+  font-size: 19px;
+}
+
+.barranav a {
+  font-family: april;
+  letter-spacing: 1px;
+}
+
+.engranaje {
+  height: 50px;
+  width: 90px;
+  background-image: url(imagen/motorcycle-3699139.png);
+  background-size: cover;
+  background-position: center;
+  margin-top: -9px;
+  margin-left: 245px;
+  display: flex;
+  animation-name: moto;
+  animation-iteration-count: infinite;
+  animation-duration: 1.5s;
+  animation-delay: 2s;
+  animation-direction: alternate;
+}
+
+@keyframes moto {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* BARRA DE NAVEGACION */
+/* MENU */
+main {
+  height: 100vh;
+  background-image: url(./imagen/fondo\ de\ menu.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.cards {
+  margin-left: 80px;
+  padding-top: 70px;
+  display: flex;
+}
+
+.cards p {
+  color: white;
+}
+
+.cards h5 {
+  color: white;
+}
+
+h2 {
+  height: 50px;
+  line-height: 50px;
+  font-family: autodex;
+  text-align: center;
+  background-color: rgb(34, 33, 37);
+  color: aliceblue;
+  margin-bottom: 0;
+}
+
+.izq {
+  background-color: rgb(139, 136, 136);
+  background-image: url(./imagen/foto\ prueba.png);
+  background-position: center;
+  background-size: cover;
+  height: 278px;
+  border: solid black 1px;
+  font-size: 18px;
+  color: aliceblue;
+  text-shadow: rgb(12, 12, 12) 1px 0 10px;
+}
+
+.der {
+  background-color: rgb(139, 136, 136);
+  background-image: url(./imagen/foto\ prueba.png);
+  background-position: center;
+  background-size: cover;
+  height: 278px;
+  border: solid black 1px;
+  font-size: 18px;
+  color: aliceblue;
+  text-shadow: rgb(12, 12, 12) 1px 0 10px;
+}
+
+h3 {
+  font-family: april;
+  text-align: center;
+  line-height: 55px;
+}
+
+/* MENU */
+/* FOOTER */
+footer {
+  height: 100px;
+}
+
+footer div {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 40px;
+}
+
+footer a {
+  letter-spacing: 10px;
+  color: rgb(139, 136, 136);
+  box-shadow: 1 1 1 1 1;
+}
+
+footer a:hover {
+  color: aliceblue;
+}
+
+/* FOOTER */
+/* GALERIA */
+.galeria {
+  height: 100vh;
+  width: 100%;
+  background-image: url(./imagenes/motorbike-gbeef999bf_1280.jpg);
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 6px;
+}
+
+.img {
+  background-color: aquamarine;
+}
+
+.img1 {
+  background-image: url(./imagen/016ffa83-d61f-4f5b-ada9-1d76b3a72329.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img2 {
+  background-image: url(./imagen/5365_Honda-CBR1000RR-YM17-8428-1046x616.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img3 {
+  background-image: url(./imagen/BMW-S1000-RR-2023-lateral.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img4 {
+  background-image: url(./imagen/h2r.jpg);
+  background-position: center;
+  background-size: cover;
+  grid-column: 4/6;
+  grid-row: 1/2;
+}
+
+.img5 {
+  background-image: url(./imagen/2022-Yamaha-YZF1000R1SPL-EU-Detail-001-03.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img6 {
+  background-image: url(./imagen/Honda-CBR1000RR-R-2024-render.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img7 {
+  background-image: url(./imagen/Kawasaki_Ninja_ZX-10_ABS.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img8 {
+  background-image: url(./imagen/HONDA-CBR1000RR-R-FIREBLADE-2022-30-ANIVERSARIO.jpg);
+  background-position: center;
+  background-size: cover;
+  grid-column: 2/4;
+  grid-row: 2/3;
+}
+
+.img9 {
+  background-image: url(./imagen/KTM-1290-Super-Duke-RR-2023-diagonal.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img10 {
+  background-image: url(./imagen/cb1fb5652521eb5c61d40f27f27cd65c.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img11 {
+  background-image: url(./imagen/motos-naked.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img12 {
+  background-image: url(./imagen/s1000rr.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img13 {
+  background-image: url(./imagen/Yamaha-R1M-2022-21-1200x675.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img14 {
+  background-image: url(./imagen/zx10\ new\ gen.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img15 {
+  background-image: url(./imagen/BMW-S-1000-RR\ \(30\).jpg);
+  background-position: center;
+  background-size: cover;
+  grid-column: 4/6;
+  grid-row: 3/4;
+}
+
+/* GALERIA */
+/* MENU DE CONTACTO */
+div.registro {
+  width: 250px;
+  margin-left: 90px;
+  padding: 10px;
+}
+
+.registro label {
+  color: aliceblue;
+}
+
+/* MENU DE CONTACTO */
+/* NOSTROS */
+.info {
+  margin-left: -40px;
+}
+
+.spinner-border {
+  margin-left: 10px;
+}
+
+.izq2 {
+  background-color: rgb(139, 136, 136);
+  background-image: url(./imagen/foto\ prueba.png);
+  background-position: center;
+  background-size: cover;
+  height: 278px;
+  border: solid black 1px;
+  font-size: 18px;
+  color: aliceblue;
+  text-shadow: rgb(12, 12, 12) 1px 0 10px;
+}
+
+.der2 {
+  background-color: rgb(139, 136, 136);
+  background-image: url(./imagen/foto\ prueba.png);
+  background-position: center;
+  background-size: cover;
+  height: 278px;
+  border: solid black 1px;
+  font-size: 18px;
+  color: aliceblue;
+  text-shadow: rgb(12, 12, 12) 1px 0 10px;
+}
+
+/* NOSOTROS */
+/* MEDIAQUERIS */
+@media only screen and (max-width: 480px) {
+  .galeria {
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+}/*# sourceMappingURL=styles.css.map */
